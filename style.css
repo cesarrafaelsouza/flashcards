@@ -1,9 +1,16 @@
-:root {
+root{
 --text-color: #dbe4ef;
---card-front-color: #144480;
---card-back-color: #00f4bf;
+--card-front-color:#144480;
+--card-back-color:#00f4bf;
 }
 body{
-    background: url('ing/bg-desktop.webp') ;
-    font-family: 'Bai jamjuree' ,sans-serif;
+background:url('img/bg-desktop.webp') ;
+font-family: 'Bai Jamjuree',sans-serif;
+}
+#container{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+padding: 4rem;
+gap: 3rem;
 }
